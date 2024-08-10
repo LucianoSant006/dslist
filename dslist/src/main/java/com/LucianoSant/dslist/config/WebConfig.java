@@ -11,7 +11,7 @@ public class WebConfig {
 
 	@Value("${cors.origins}")
 	private String corsOrigins;
-	
+
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
@@ -21,5 +21,5 @@ public class WebConfig {
 			}
 		};
 	}
-	
+
 }

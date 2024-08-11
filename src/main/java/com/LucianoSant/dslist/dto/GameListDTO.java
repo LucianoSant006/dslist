@@ -1,18 +1,13 @@
 package com.LucianoSant.dslist.dto;
 
-import com.LucianoSant.dslist.entites.GameList;
+import com.LucianoSant.dslist.entities.GameList;
 
 public class GameListDTO {
-	
+
 	private Long id;
 	private String name;
 	
-	public GameListDTO() {
-		
-	}
-	
 	public GameListDTO(GameList entity) {
-		
 		id = entity.getId();
 		name = entity.getName();
 	}
@@ -24,6 +19,4 @@ public class GameListDTO {
 	public String getName() {
 		return name;
 	}
-	
-	
 }

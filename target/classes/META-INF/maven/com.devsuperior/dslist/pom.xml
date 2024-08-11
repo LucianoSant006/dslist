@@ -8,7 +8,7 @@
 		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.LucianoSant</groupId>
+	<groupId>com.devsuperior</groupId>
 	<artifactId>dslist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dslist</name>

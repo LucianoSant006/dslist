@@ -1,0 +1,15 @@
+com\LucianoSant\dslist\entites\BelongingPK.class
+com\LucianoSant\dslist\entites\GameList.class
+com\LucianoSant\dslist\repositories\GameListRepository.class
+com\LucianoSant\dslist\controllers\GameListController.class
+com\LucianoSant\dslist\dto\GameDTO.class
+com\LucianoSant\dslist\entites\Game.class
+com\LucianoSant\dslist\services\GameListService.class
+com\LucianoSant\dslist\entites\Belonging.class
+com\LucianoSant\dslist\DslistApplication.class
+com\LucianoSant\dslist\dto\GameMinDTO.class
+com\LucianoSant\dslist\services\GameService.class
+com\LucianoSant\dslist\dto\GameListDTO.class
+com\LucianoSant\dslist\controllers\GameController.class
+com\LucianoSant\dslist\projections\GameMinProjection.class
+com\LucianoSant\dslist\repositories\GameRepository.class

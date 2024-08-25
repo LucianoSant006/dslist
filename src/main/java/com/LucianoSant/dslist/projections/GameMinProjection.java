@@ -1,5 +1,6 @@
 package com.LucianoSant.dslist.projections;
 
+
 public interface GameMinProjection {
 
 	Long getId();
@@ -9,3 +10,4 @@ public interface GameMinProjection {
 	String getShortDescription();
 	Integer getPosition();
 }
+

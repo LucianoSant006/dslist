@@ -1,4 +1,4 @@
-package com.LucianoSant.dslist.entities;
+package com.LucianoSant.dslist.entites;
 
 import java.util.Objects;
 
@@ -136,3 +136,4 @@ public class Game {
 		return Objects.equals(id, other.id);
 	}
 }
+	

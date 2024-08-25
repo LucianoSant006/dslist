@@ -1,3 +1,4 @@
+
 package com.LucianoSant.dslist.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -5,7 +6,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.LucianoSant.dslist.entities.GameList;
+import com.LucianoSant.dslist.entites.GameList;
 
 public interface GameListRepository extends JpaRepository<GameList, Long> {
 
@@ -16,3 +17,5 @@ public interface GameListRepository extends JpaRepository<GameList, Long> {
                                  @Param("gameId") Long gameId, 
                                  @Param("newPosition") Integer newPosition);
 }
+
+

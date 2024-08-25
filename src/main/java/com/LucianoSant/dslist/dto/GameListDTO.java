@@ -1,6 +1,7 @@
+
 package com.LucianoSant.dslist.dto;
 
-import com.LucianoSant.dslist.entities.GameList;
+import com.LucianoSant.dslist.entites.GameList;
 
 public class GameListDTO {
 

@@ -1,3 +1,4 @@
+
 package com.LucianoSant.dslist.services;
 
 import java.util.List;
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.LucianoSant.dslist.dto.GameListDTO;
-import com.LucianoSant.dslist.entities.GameList;
+import com.LucianoSant.dslist.entites.GameList;
 import com.LucianoSant.dslist.projections.GameMinProjection;
 import com.LucianoSant.dslist.repositories.GameListRepository;
 import com.LucianoSant.dslist.repositories.GameRepository;

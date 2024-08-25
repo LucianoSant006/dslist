@@ -1,6 +1,7 @@
+
 package com.LucianoSant.dslist.dto;
 
-import com.LucianoSant.dslist.entities.Game;
+import com.LucianoSant.dslist.entites.Game;
 import com.LucianoSant.dslist.projections.GameMinProjection;
 
 public class GameMinDTO {

@@ -1,3 +1,4 @@
+
 package com.LucianoSant.dslist.services;
 
 import java.util.List;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.LucianoSant.dslist.dto.GameDTO;
 import com.LucianoSant.dslist.dto.GameMinDTO;
-import com.LucianoSant.dslist.entities.Game;
+import com.LucianoSant.dslist.entites.Game;
 import com.LucianoSant.dslist.projections.GameMinProjection;
 import com.LucianoSant.dslist.repositories.GameRepository;
 

@@ -1,3 +1,4 @@
+
 package com.LucianoSant.dslist.repositories;
 
 import java.util.List;
@@ -6,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.LucianoSant.dslist.entities.Game;
+import com.LucianoSant.dslist.entites.Game;
 import com.LucianoSant.dslist.projections.GameMinProjection;
 
 public interface GameRepository extends JpaRepository<Game, Long> {
@@ -21,3 +22,4 @@ public interface GameRepository extends JpaRepository<Game, Long> {
                 """)
     List<GameMinProjection> searchByList(@Param("listId") Long listId);
 }
+
